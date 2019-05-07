@@ -1,0 +1,52 @@
+body{
+    background-color: #eaeaea;
+    padding: 20px;
+    margin: 0px;
+}
+
+.normaltext{
+    font-family: Roboto;
+    color: #373334;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 22px;
+}
+
+.linktext{
+    text-decoration-line: underline;
+}
+
+.btn{
+    background-color: #373334;
+    color: #eaeaea !important;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.titletext{
+    font-size: 26px !important;
+}
+
+li{
+    display: inline-block;
+    width: 30vw;
+    vertical-align: top;
+    margin-left: 30xp;
+}
+
+.infoblock{}
+
+h1{
+    margin-bottom: 50px !important;
+}
+
+a {
+    text-decoration: none;
+}
