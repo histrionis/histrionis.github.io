@@ -1,0 +1,9 @@
+.main{
+    margin-top: calc(50vh - 155px);
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+img{
+    width: 115px;
+}
