@@ -1,52 +1,39 @@
 body{
-    background-color: #eaeaea;
-    padding: 20px;
-    margin: 0px;
-}
-
-.normaltext{
-    font-family: Roboto;
-    color: #373334;
-    padding: 0px;
-    margin: 0px;
-    font-size: 18px;
-    text-align: left;
-    vertical-align: top;
-    line-height: 22px;
-}
-
-.linktext{
-    text-decoration-line: underline;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
 }
 
 .btn{
-    background-color: #373334;
-    color: #eaeaea !important;
-    font-family: Roboto;
-    font-size: 18px;
-    padding: 10px;
-    width: 200px;
+    vertical-align: middle;
     text-align: center;
-    border-radius: 3px;
+    background-color: #373334;
+    color: #eaeaea;
+    font-size: 18px;
+    width: 300px;
+    border-radius: 60px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(55, 51, 52, 0.2);
 }
 
-.titletext{
-    font-size: 26px !important;
+#main{
+    margin-top: calc(50vh - 140px);
+    font-family: Roboto;
 }
 
-li{
-    display: inline-block;
-    width: 30vw;
-    vertical-align: top;
-    margin-left: 30xp;
+.btn:hover{
+    box-shadow: 0px 7px 10px rgba(55, 51, 52, 0.35);
+    transition: 0.3s;
 }
 
-.infoblock{}
-
-h1{
-    margin-bottom: 50px !important;
-}
-
-a {
+a{
     text-decoration: none;
+}
+
+.maintext{
+    font-size: 18px;
+}
+
+#name{
+    font-weight: bold;
 }
